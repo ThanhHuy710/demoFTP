@@ -19,4 +19,4 @@ jobs:
           server: ${{ secrets.SOMEE_FTP_SERVER }}
           username: ${{ secrets.SOMEE_FTP_USERNAME }}
           password: ${{ secrets.SOMEE_FTP_PASSWORD }}
-          local-dir: .   # deploy toàn bộ repo (index.html, css, js...)
+          local-dir: ./publish/
